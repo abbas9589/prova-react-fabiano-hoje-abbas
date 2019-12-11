@@ -1,0 +1,33 @@
+* body, li, ul,a{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer{
+    display: grid;
+    grid-auto-columns: 1fr 1fr 1fr;
+    background: #65AD2F;
+    height: 100px;
+    align-items: center;
+    margin-top: 200px;
+}
+.footer-grid h2{
+    text-align: center;
+    font-size: 0.875rem;
+    font-style: normal;
+}
+.footer a{
+    font-style: none;
+    color: black;
+}
+
+.footer a:hover{
+    color: white;
+}
+
+
+
+
+    
